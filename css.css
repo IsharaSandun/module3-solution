@@ -1,1 +1,62 @@
 
+#header-nav{
+	background-color: #D3D3D3;
+	border:0 ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#header1{
+	font-size: 40px; 
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 5px;
+	text-align: left;
+	padding-left: 20px;
+}
+#main_topic{
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 5px;
+	text-align: center;	
+	padding-left: 20px;
+}
+
+#box1{
+	width: auto;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	background-color:#D3D3D3 ;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, 
+	.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
+	{
+		padding-right: 35px;
+		padding-left: 35px;
+		margin-left:40px;
+		margin-right:40px;
+		border: 1px solid black;
+	}
+	.col-xs-1{
+		width: 8.33%
+	}
+	.col-xs-2{
+		width: 45%
+	}
+	.col-xs-3{
+		width: 95%
+	}
+
+}
+
+@media (min-width: 576px){
+	#menu_toggle{
+		display: none
+	}
+}
+
